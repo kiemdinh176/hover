@@ -1,0 +1,40 @@
+/* tác động vào class khi di chuột qua  */
+/* #chonem:hover { */
+/* color: aquamarine; */
+/* } */
+/* .dichuot:hover { */
+/* color: brown; */
+/* } */
+/*  */
+
+/* tác động vào khi ta nhấn dữ và nhấn chuột */
+#chonem:active {
+  color: aquamarine;
+}
+.dichuot:hover {
+  color: brown;
+}
+
+/* tác động vào khi ta nhấn vào link lúc ch nhấn :link khi đã nhấn :visited */
+.click_me:link {
+  color: lawngreen;
+}
+.click_me:visited {
+  color: blue;
+}
+
+/* trống emply */
+.div_elm:empty {
+  width: 200px;
+  height: 200px;
+  background-color: darkseagreen;
+}
+.div_elm {
+  width: 100px;
+  height: 100px;
+  background-color: darkseagreen;
+}
+/* đổi màu tiêu đề phần index khi ta chọn vào link dẫn đến phần đó để đọc */
+h2:target {
+  color: cadetblue;
+}
